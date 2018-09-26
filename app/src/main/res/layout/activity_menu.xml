@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <Button
+        android:id="@+id/btnInput"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="166dp"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:text="Input Data" />
+
+    <Button
+        android:id="@+id/btnAlert"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="109dp"
+        android:drawableLeft="@drawable/ic_add_alert_black_24dp"
+        android:text="Alert Dialog" />
+
+    <TextView
+        android:id="@+id/txtUser"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="4dp"
+        android:text="User : " />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="46dp"
+        android:background="?android:attr/listDivider" />
+
+    <Button
+        android:id="@+id/btnToast"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txtUser"
+        android:layout_marginTop="54dp"
+        android:drawableLeft="@drawable/ic_announcement_black_24dp"
+        android:text="Toast" />
+
+</RelativeLayout>
